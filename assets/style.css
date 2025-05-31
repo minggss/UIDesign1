@@ -58,3 +58,26 @@ body {
 #right-column {
 	background: #333;
 }*/
+
+/* 🌙 다크모드 스타일 */
+body.dark {
+  background-color: #1e1e1e;
+  color: #dddddd;
+}
+
+body.dark a {
+  color: #9dc6a7;
+}
+
+body.dark a:hover {
+  color: #b2f0d2;
+}
+
+body.dark #grid {
+  background-color: #2a2a2a;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+body.dark .desc {
+  color: #aac8aa;
+}
